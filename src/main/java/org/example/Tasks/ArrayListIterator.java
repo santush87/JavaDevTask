@@ -1,4 +1,4 @@
-package Tasks;
+package org.example.Tasks;
 
 import java.util.ArrayList;
 import java.util.Iterator;

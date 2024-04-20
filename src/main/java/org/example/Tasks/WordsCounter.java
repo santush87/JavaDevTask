@@ -1,12 +1,13 @@
 package Tasks;
 
 import java.util.HashMap;
+import java.util.Map;
 
 public class WordsCounter {
 
     public static int countWords(String input) {
         String[] words = input.split("\\s+"); // Split string by whitespace
-        HashMap<String, Integer> wordCountMap = new HashMap<>();
+        Map<String, Integer> wordCountMap = new HashMap<>();
         for (String word : words) {
             // Remove punctuation marks
             word = word.replaceAll("[^a-zA-Z0-9]", "").toLowerCase();
