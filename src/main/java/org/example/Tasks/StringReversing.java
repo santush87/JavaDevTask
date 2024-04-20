@@ -1,4 +1,4 @@
-package Tasks;
+package org.example.Tasks;
 
 public class StringReversing {
 
