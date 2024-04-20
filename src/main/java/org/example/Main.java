@@ -10,19 +10,21 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
 
-//        First
-//        System.out.println("Enter string to reverse: ");
-//        String reversed = StringReversing.reverseString(sc.nextLine());
-//        System.out.println(reversed);
+        //TODO Uncomment the lines below to test the methods in the Main class
 
-//        Second
+//        First - reversing a string without using the reverse() built-in java function
+        System.out.println("Enter string to reverse: ");
+        String reversed = StringReversing.reverseString(sc.nextLine());
+        System.out.println(reversed);
+
+//        Second - count the number of words in a string using HashMap
 //        System.out.println("Enter a text:");
 //        String input2 = sc.nextLine();
 //        int words = WordsCounter.countWords(input2);
 //        System.out.println("Number of words: " + words);
 
 
-//        Third
+//        Third - iterate over an ArrayList using for, while
 //        ArrayList<String> arrayList = new ArrayList<>();
 //        arrayList.add("Apple");
 //        arrayList.add("Banana");
@@ -35,14 +37,14 @@ public class Main {
 //        System.out.println("Iterating over the ArrayList using while loop:");
 //        ArrayListIterator.arrayListIterationUsingWhile(arrayList);
 
-//        Fourth
+//        Fourth - find duplicate characters in a string
 //        System.out.println("Enter a text:");
 //        String input3 = sc.nextLine();
 //        System.out.println("Duplicate characters:");
 //        Duplicates.findDuplicateCharacters(input3);
 
-//        Fifth
-        String file = "src/main/resources/Test.xlsx";
-        ExcelReader.readExcel(file);
+//        Fifth - Reading Excel file
+//        String file = "src/main/resources/Test.xlsx";
+//        ExcelReader.readExcel(file);
     }
 }
